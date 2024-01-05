@@ -1,12 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
 .recipes {
     font-weight: bold;
     font-size: 50px;
+    border: 3px solid black;
+    height: 70px;
+    width: 350px;
+    margin: 30px auto 30px auto;
     text-align: center;
+    background-color: #EAF2EF;
 }
 
 .links {
     font-size: 25px;
     text-align: center;
+    border-radius: 50%;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    text-decoration: none;
 }
 
 img {
@@ -17,7 +31,7 @@ img {
 
 .header {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 ul.center {
@@ -38,4 +52,52 @@ p {
     color: red;
     font-weight: bold;
     font-size: 20px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.link-tacos,
+.link-fajitas,
+.link-burritos {
+    text-decoration: none;
+    color: black;
+}
+
+.link-burritos:hover,
+.link-fajitas:hover,
+.link-tacos:hover {
+    text-decoration: underline red;
+}
+
+.steps {
+    width: 900px;
+    margin: auto;
+}
+
+.instructions {
+    border-top: 3px solid black;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.circle {
+    width: 510px;
+    margin: auto;
+    height: 410px;
+    border: 3px solid black;
+}
+
+.color {
+    background-color: #efe897;
+    width: 500px;
+    margin: auto;
+    margin-bottom: -10px;
+
 }
